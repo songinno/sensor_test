@@ -1,0 +1,41 @@
+# Built application files
+*.apk
+*.aar
+*.ap_
+*.aab
+
+# Files for the ART/Dalvik VM
+*.dex
+
+# Java/Kotlin class files
+*.class
+
+# Generated build files & Gradle cache
+/build
+/*/build
+.gradle
+.externalNativeBuild
+.cxx
+
+# Local configuration file (SDK 경로, API Key 등 보안)
+local.properties
+
+# Log files (센서 테스트 로그 등)
+*.log
+probe.log
+
+# Android Studio / IntelliJ IDE files
+.idea/
+*.iml
+/captures
+
+# Keystore & Signing files (서명 키 보안)
+*.jks
+*.keystore
+
+# AI / IDE 생성 임시 폴더
+.artifacts/
+
+# OS generated files
+.DS_Store
+Thumbs.db
